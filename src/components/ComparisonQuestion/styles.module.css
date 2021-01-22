@@ -1,0 +1,30 @@
+.questionnaireItemWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  width: 100%;
+  border: solid 1px black;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 120px;
+  padding: 15px;
+  border-right: solid 1px black;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  padding: 15px;
+}
+
+.question>img {
+  max-width: 100%;
+}
